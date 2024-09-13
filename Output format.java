@@ -9,7 +9,7 @@ public static void main(String[] args) {
             String s1=sc.next();
             int x=sc.nextInt();
             
-         System.out.println((String.format("%-15s",s1))+""+String.format("%03d", x));    //format with left align and 15 characters and 3 digits (fill with zeros)
+         System.out.println((String.format("%-15s",s1))+""+String.format("%03d", x));    //format left align and 15 characters and 3 digits (fill with zeros)
         
 
         }
