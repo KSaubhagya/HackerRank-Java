@@ -13,7 +13,7 @@ public class Solution {
     String s=String.valueOf(n);
    //Write your code here
     
-   //this part is for printing good job
+   //this part is for printing good job or wrong
    if (n == Integer.parseInt(s)) {
     System.out.println("Good job");
    } else {
