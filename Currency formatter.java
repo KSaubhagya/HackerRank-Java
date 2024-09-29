@@ -13,7 +13,7 @@ public class Solution {
         String us = n1.format(payment);// formats the value of payment
 
         NumberFormat n2 = NumberFormat.getCurrencyInstance(new Locale("en","IN")); //India does not have a built-in Locale, so you must construct one where the language is en
-        String india = n2.format(payment);
+        String india = n2.format(payment);  //creates a custom locale for India. Here, "en" represents English as the language, and "IN" represents India
 
         NumberFormat n3 = NumberFormat.getCurrencyInstance(Locale.CHINA);
         String china = n3.format(payment);
