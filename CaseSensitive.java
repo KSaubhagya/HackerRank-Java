@@ -20,6 +20,6 @@ public class Solution {
         String b = scan.next();
         scan.close();
         boolean ret = isAnagram(a, b);
-        System.out.println( (ret) ? "Anagrams" : "Not Anagram" );
+        System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
     }
 }
