@@ -19,7 +19,6 @@ class Result {
         if (n <= 1) {
             return 0;
         }
-
         long sum = responseTimes.get(0);
         int count = 0;
 
