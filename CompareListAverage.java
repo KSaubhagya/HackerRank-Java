@@ -14,13 +14,6 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    /*
-     * Complete the 'countResponseTimeRegressions' function below.
-     *
-     * The function is expected to return an INTEGER.
-     * The function accepts INTEGER_ARRAY responseTimes as parameter.
-     */
-
     public static int countResponseTimeRegressions(List<Integer> responseTimes) {
     int n = responseTimes.size();
         if (n <= 1) {
