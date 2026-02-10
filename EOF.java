@@ -9,7 +9,7 @@ public class Solution {
     public static void main(String[] args) {
         Scanner sc= new Scanner (System.in);
         int i=1;
-        while(sc.hasNext()){                //end of the file
+        while(sc.hasNext()){                //end of file
         String t= sc.nextLine();
         System.out.println(i+" "+t);
         i++;
