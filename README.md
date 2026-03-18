@@ -1,2 +1,2 @@
 # HackerRank Java
-Java Challenges from Hackerran
+Java Challenges from Hackerrank
