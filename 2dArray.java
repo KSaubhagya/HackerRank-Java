@@ -8,7 +8,7 @@ public class Solution {
         
         visited[pos] = true;
         
-        return canWin(leap, game, visited, pos-1) || 
+        return canWin(leap, game, visited, pos-1) ||
             canWin(leap, game, visited, pos+1) ||
             canWin(leap, game, visited, pos+leap);  
     }
