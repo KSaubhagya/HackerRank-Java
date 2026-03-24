@@ -10,7 +10,7 @@ public class Solution {
         
         return canWin(leap, game, visited, pos-1) ||
             canWin(leap, game, visited, pos+1) ||
-            canWin(leap, game, visited, pos+leap);  
+            canWin(leap, game, visited, pos+leap); 
     }
 
     public static boolean canWin(int leap, int[] game) {
