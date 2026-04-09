@@ -7,7 +7,6 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 class Result {
-
     /*
      * Complete the 'findDay' function below.
      *
