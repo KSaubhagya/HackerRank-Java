@@ -14,7 +14,7 @@ public class Solution {
     if (A.compareTo(B) > 0) {
     System.out.println("Yes");
     } else {
-    System.out.println("No");
+    System.out.println("No");   
     }
 
     String capitalizedA = A.substring(0,1).toUpperCase() + A.substring(1);
