@@ -30,7 +30,6 @@ class Result {
 
         return count;
     }
-
     }
 
 public class Solution {
