@@ -35,7 +35,6 @@ public class Solution {
                 System.out.print(" ");
             }
         }
-
         sc.close();
     }
 }
