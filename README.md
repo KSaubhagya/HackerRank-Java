@@ -1,2 +1,2 @@
 #HackerRank Java  
-Java Problems and Python Problems   
+Java Problems and Python Problems
