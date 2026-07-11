@@ -3,7 +3,6 @@ public class GFG {
     // Function to print all the permutations of str
     static void printPermutn(String str, String ans)
     {
-
         // If string is empty
         if (str.length() == 0) {
             System.out.print(ans + " ");
