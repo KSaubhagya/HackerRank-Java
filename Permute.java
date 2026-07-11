@@ -1,24 +1,14 @@
 public class GFG {
 
-    // Function to print all the distinct
-    // permutations of str
-    static void printDistinctPermutn(String str,
-                                    String ans)
+    // Function to print all the permutations of str
+    static void printPermutn(String str, String ans)
     {
 
         // If string is empty
         if (str.length() == 0) {
-
-            // print ans
             System.out.print(ans + " ");
             return;
         }
-
-        // Make a boolean array of size '26' which
-        // stores false by default and make true
-        // at the position which alphabet is being
-        // used
-        boolean alpha[] = new boolean[26];
 
         for (int i = 0; i < str.length(); i++) {
 
@@ -30,20 +20,15 @@ public class GFG {
             String ros = str.substring(0, i) +
                         str.substring(i + 1);
 
-            // If the character has not been used
-            // then recursive call will take place.
-            // Otherwise, there will be no recursive
-            // call
-            if (alpha[ch - 'a'] == false)
-                printDistinctPermutn(ros, ans + ch);
-            alpha[ch - 'a'] = true;
+            // Recursive call
+            printPermutn(ros, ans + ch);
         }
     }
 
     // Driver code
     public static void main(String[] args)
     {
-        String s = "geek";
-        printDistinctPermutn(s, "");
+        String s = "abb";
+        printPermutn(s, "");
     }
 }
