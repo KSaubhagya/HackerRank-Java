@@ -10,7 +10,7 @@ public class GFG {
 
         for (int i = 0; i < str.length(); i++) {
 
-            // ith character of str
+            // ith character of string
             char ch = str.charAt(i);
 
             // Rest of the string after excluding
