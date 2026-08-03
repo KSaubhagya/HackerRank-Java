@@ -1,2 +1,2 @@
 #HackerRank Java
-- Java Problems and  Problems
+- Java Problems Problems
