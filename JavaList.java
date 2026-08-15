@@ -11,7 +11,6 @@ public class Solution {
         for (int i = 0; i < n; i++) {
             list.add(sc.nextInt());
         }
-
         int q = sc.nextInt();
 
         for (int i = 0; i < q; i++) {
