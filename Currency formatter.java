@@ -8,7 +8,6 @@ public class Solution {
         double payment = scanner.nextDouble();
         scanner.close();
         
-        // Write your code here.
         NumberFormat n1 = NumberFormat.getCurrencyInstance(Locale.US); //creates a NumberFormat object that formats numbers as currency according to the US locale (built in func)
         String us = n1.format(payment);// formats the value of payment
 
