@@ -11,7 +11,7 @@ public class Solution {
         NumberFormat n1 = NumberFormat.getCurrencyInstance(Locale.US); //creates a NumberFormat object that formats numbers as currency according to the US locale (built in func)
         String us = n1.format(payment);// formats the value of payment
 
-        NumberFormat n2 = NumberFormat.getCurrencyInstance(new Locale("en","IN")); //India does not have a built-in Locale, so you must construct one where the language is en
+        NumberFormat n2 = NumberFormat.getCurrencyInstance(new Locale("en","IN")); //India doesn't have a built-in Locale, so you must construct one where the language is en
         String india = n2.format(payment);  //creates a custom locale- India. Here, "IN" represents India, and "en" english
 
         NumberFormat n3 = NumberFormat.getCurrencyInstance(Locale.CHINA);
