@@ -15,7 +15,7 @@ static {
         H = scanner.nextInt();
 
         if (B <= 0 || H <= 0) {
-            throw new Exception("Breadth and height must be positive");
+            throw new Exception("Breadth and height must be a positive value ");
         }
     } catch (Exception exception) {
         flag = false;
