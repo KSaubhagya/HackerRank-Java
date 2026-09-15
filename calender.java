@@ -19,7 +19,7 @@ class Result {
     // Set the calendar with the provided date (Note: month is 0-based in Calendar)
     calendar.set(year, month - 1, day);
 
-    // Get the day of the week (1 = Sunday, 2 = Monday, ..., 7 = Saturday)
+    // Get the day of the week (1 = Sunday, 2 = Monday, .., 7 = Saturday)
     int dayOfWeek = calendar.get(Calendar.DAY_OF_WEEK);
 
     // Array to map the day of the week to its name
