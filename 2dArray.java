@@ -5,7 +5,6 @@ public class Solution {
     private static boolean canWin(int leap, int[] game, boolean[] visited, int pos) {
         if (pos >= game.length) return true;
         if (pos < 0 || game[pos] != 0 || visited[pos]) return false;
-        
         visited[pos] = true;
         
         return canWin(leap, game, visited, pos-1) ||
