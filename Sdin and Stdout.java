@@ -7,7 +7,7 @@ public class Solution {
         
         int i = scan.nextInt();
         double d = scan.nextDouble();
-        scan.nextLine(); //here we have written this because otherwise it'll scan an empty line from int remain
+        scan.nextLine(); //  here we have written this because otherwise it'll scan an empty line from int remain
         String s = scan.nextLine();
         scan.close();
 
