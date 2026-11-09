@@ -1,5 +1,5 @@
 public class GFG {
-    // Function to print all the permutations of strings
+    // Function to print all the permutations of string
     static void printPermutn(String str, String ans)
     {
         // If string is empty
